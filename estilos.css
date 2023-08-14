@@ -1,0 +1,60 @@
+body {
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(20, 165, 205);
+}
+button {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+  background-color: #032a53;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: none;
+}
+
+.removeTask {
+  background-color: #dc3545; /* Define a cor vermelha para o botão de remoção */
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.removeTask:hover {
+  background-color: #c82333; /* Define uma cor mais escura para o efeito de hover */
+}
